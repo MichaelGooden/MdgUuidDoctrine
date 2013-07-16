@@ -1,0 +1,15 @@
+{
+    "name": "michaelgooden/mdg-uuid-doctrine",
+    "description": "Strategy for using UUIDs with Doctrine2.",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Michael Gooden",
+            "email": "me@michaelgooden.net"
+        }
+    ],
+    "require": {
+        "michaelgooden/mdg-uuid": "1.*",
+        "doctrine/orm": "~2.3"
+    }
+}
