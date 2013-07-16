@@ -1,0 +1,30 @@
+{
+    "name": "michaelgooden/mdg-uuid-doctrine",
+    "description": "Strategy for using UUIDs with Doctrine2.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "uuid",
+		"doctrine"
+    ],
+    "homepage": "https://github.com/MichaelGooden/MdgUuidDoctrine",
+    "authors": [
+        {
+            "name": "Michael Gooden",
+            "email": "me@michaelgooden.net",
+            "homepage": "http://michaelgooden.github.io/"
+        }
+    ],
+    "require": {
+        "michaelgooden/mdg-uuid": "1.*",
+        "doctrine/orm": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "MdgUuidDoctrine\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
