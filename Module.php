@@ -1,9 +1,12 @@
 <?php
 namespace MdgUuidDoctrine;
 
+use Doctrine\DBAL\Types\Type;
+use Zend\EventManager\EventInterface;
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
+use Zend\ModuleManager\Feature\BootstrapListenerInterface;
 
-class Module implements AutoloaderProviderInterface
+class Module implements AutoloaderProviderInterface, BootstrapListenerInterface
 {
     public function getAutoloaderConfig()
     {
@@ -14,5 +17,10 @@ class Module implements AutoloaderProviderInterface
                 )
             )
         );
+    }
+
+    public function onBootstrap(EventInterface $e)
+    {
+        Type::addType('uuid', 'MdgUuidDoctrine\UuidType');
     }
 }
