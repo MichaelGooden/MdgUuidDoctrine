@@ -4,6 +4,7 @@
  *
  * @link      http://github.com/MichaelGooden/MdgUuidDoctrine for the canonical source repository
  * @copyright Copyright (c) 2013 Michael Gooden (http://michaelgooden.github.io)
+ * @license   http://michaelgooden.github.io/license/BSD-3-Clause.txt BSD 3-Clause License
  */
 namespace MdgUuidDoctrine;
 
