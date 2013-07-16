@@ -1,8 +1,8 @@
 <?php
 namespace MdgUuidDoctrine;
 
-use Doctrine\ORM\Id\AbstractIdGenerator;
 use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\Id\AbstractIdGenerator;
 use MdgUuid\Generator;
 
 class GenerateV4 extends AbstractIdGenerator
