@@ -11,5 +11,13 @@
     "require": {
         "michaelgooden/mdg-uuid": "1.*",
         "doctrine/orm": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "MdgUuidDoctrine\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
