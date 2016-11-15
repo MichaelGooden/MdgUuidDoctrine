@@ -1,4 +1,5 @@
 {
+    "abandoned": true,
     "name": "michaelgooden/mdg-uuid-doctrine",
     "description": "Strategy for using UUIDs with Doctrine2.",
     "type": "library",
